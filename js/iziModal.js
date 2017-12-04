@@ -179,11 +179,9 @@
 	            }
 
 	            if(options.theme !== ""){
-					if(options.theme === "light"){
-						this.$element.addClass(PLUGIN_NAME+'-light');
-					} else {
-						this.$element.addClass(options.theme);
-					}
+						
+						this.$element.addClass(PLUGIN_NAME+ "-" +options.theme);
+					
 	            }
 
 				if(options.rtl === true) {
@@ -648,7 +646,7 @@
 							this.classes,
 							PLUGIN_NAME,
 							transitionOut,
-							this.options.theme == 'light' ? PLUGIN_NAME+'-light' : this.options.theme,
+							this.options.theme !== '' ? PLUGIN_NAME+'-' + this.options.theme : '',
 							this.isFullscreen === true ? 'isFullscreen' : '',
 							this.options.rtl ? PLUGIN_NAME+'-rtl' : ''
 						].join(' '));
@@ -889,6 +887,14 @@
 				}
 
 				this.$header.find('.'+PLUGIN_NAME+'-header-title').html(title);
+			},
+			
+			setTheme: function(theme){
+				this.$element.removeClass(PLUGIN_NAME+ "-" +this.options.theme);
+				
+				this.options.theme = theme;
+				
+				this.$element.addClass(PLUGIN_NAME+ "-" +this.options.theme);
 			},
 
 			setSubtitle: function(subtitle){

@@ -206,6 +206,57 @@
     .iziModal.iziModal-light.isFullscreen .iziModal-button-fullscreen{
         background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAYAAAAehFoBAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3BpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoyRUUxMkYxODRFODUxMUU2Qjc3RDk0MUUzMzJDRjBEOCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo0RTNFNENCRkI4QUExMUU2QjNGOEVBMjg4OTRBRTg2NyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo0RTNFNENCRUI4QUExMUU2QjNGOEVBMjg4OTRBRTg2NyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxNyAoTWFjaW50b3NoKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjgzM2MwOWZiLWJjOTEtNGVlZS05MDM1LTRkMmU2ZmE1ZjBmMiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoyRUUxMkYxODRFODUxMUU2Qjc3RDk0MUUzMzJDRjBEOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pv1Q9Z8AAAOXSURBVHjaxJlLbA1RGMfPjIs+EvoIRYt4FVUl2EkkRTxKUqQbG0SEho2FjUQ8YtEICbEgTdFYeK1KaGvVeoUltyStt0UlNE17aWhV2+v/9X5XJpMzc8/0zpn5kl+aO3Nm7r/fnPu9xhDp2URQDJbw3xkgB2QCAwyAPvANfARvQDsfG7V4PO7pC40xCiVxa8AKFjnOw7VdoA08BtG4R8VeBZeCKrBS+GPvQAM0P/NbcB7YBdYJPfYKXIXwL34IJm8eBFOFXusH9RDdnI7gLWA/MEVwdh/UOe1tN8G0V3eLcKwFXJCJNl08G5ZYsrWgWnZCJng5OOBwo1iAoisMw6hMJXgyOOywVW7xj+9BgKL3QHSxm+C9IF9y4U2GMlStRPQP8Jbp9lFwhJwE0RHrgaSV8N6xG238l7Zjtfx3K58/Bd7zsWngIqdnP2we2ACa7B7e6RL6joK5EtHNfL7b5u1Bn7dGFbycYRVM/8WyFJnuJK+z2iVwzFrMcF1h+Cx4ClhtFVyu8CW54ITE01EwFMAPcH1SMJWIqxQvItE1YHEIsXkhtkUhCV4ApiteFOPadn4IgseDMooSSxVrhWFwmkvCsKw06WGhKLhHhGuzSHChh9pZ5cc1oFFwfoTTsWrWqQCvXdZQEpkDsjUJziSv3Qu43k3LTA1BXqvRY/4DMjTd/yu4niJVm9wslCjcb4QE/9Qo+Al44baAmgpKCIqC+01OBLrsr8/de8zkiYwuUxWSq7iuM8JhantIqfYItkOepKBysnbycIfPXYKqURL6DhaBCQrrKcZHTa5loyEIJgHXwG3F9TQV+pxMGK0BiaTHn2OLEjcURbdi7XBSMO3jTxoEjtg+7wDnhG3spSD6F3hk7Tjoxnc0CJ5k+5wFCrhplYl2mmI24nyvvWumAE9z2zIfBW8WifnxIHc2yb6xiHtEoms0/hlGtpAPHCkgNDjFyZngPN88COvkPpEe+XGHbFcD7z53C+ybwKEAo0UPZ8QCybkmiL3sNvkheygSI08RYOSQiaUhd52sUpIZLWwJsYqkkdcZeHfIS66nc9XcZQRpNBY7C7F9Yy1OtonErDgSgNhGcEXmWa/VFA1O9onE6y4dRqGtXuVtkpf2iDy8EVR6GLykMnrsNFC867QF0hH8v3MVicFcuYdKy56uqQx4SukWQj3NOtJtQIt4ckSvbmdziMqy7HcS9xv0cn/Xwdn0A1drnl/d/hNgAGQa6Lgarp6BAAAAAElFTkSuQmCC') no-repeat 50% 50%;
     }
+    
+    /*Alert Theme */
+    .iziModal.iziModal-alert .iziModal-header-icon{
+        color: rgba(255,255,255, 0.5);
+    }
+    .iziModal.iziModal-alert .iziModal-header-title{
+        color: #fff;
+    }
+    .iziModal.iziModal-alert .iziModal-header{
+        background-color: #BD5B5B  !important;
+    }
+    .iziModal.iziModal-alert .iziModal-content{
+        color: rgba(0,0,0, 1);
+    }
+    .iziModal.iziModal-alert {
+	    border-bottom: 3px solid #BD5B5B !important;
+    }
+    
+    /*Error Theme */
+    .iziModal.iziModal-error .iziModal-header-icon{
+        color: rgba(255,255,255, 0.5);
+    }
+    .iziModal.iziModal-error .iziModal-header-title{
+        color: #fff;
+    }
+    .iziModal.iziModal-error .iziModal-header{
+        background-color: #BD5B5B  !important;
+    }
+    .iziModal.iziModal-error .iziModal-content{
+        color: rgba(0,0,0, 1);
+    }
+    .iziModal.iziModal-error {
+	    border-bottom: 3px solid #BD5B5B !important;
+    }
+
+	/*Success Theme */
+	.iziModal.iziModal-success .iziModal-header-icon{
+        color: rgba(255,255,255, 0.5);
+    }
+    .iziModal.iziModal-success .iziModal-header-title{
+        color: #fff;
+    }
+    .iziModal.iziModal-success .iziModal-content{
+        color: rgba(0,0,0, 1);
+    }
+    .iziModal.iziModal-success .iziModal-header{
+        background-color: #87cb16 !important;
+    }
+    .iziModal.iziModal-success {
+	    border-bottom: 3px solid #87cb16 !important;
+    }
 
 
 .iziModal .iziModal-loader{
